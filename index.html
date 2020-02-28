@@ -1,1 +1,69 @@
-hello world!
+<!DOCTYPE html>
+<!-- https://getbootstrap.com/docs/4.4/components/alerts/ -->
+
+<html>
+  <head>
+    <title>Title</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta property="og:site_name" content="UWindsor Video Game Design Club" />
+    <meta property="og:title" content="UWindsor Video Game Design Club" />
+    <meta property="og:description" content="A group of students coming together to explore and create video games" />
+    <meta property="og:image" content="me.png" />
+    <meta property="og:type" content="website" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" integrity="sha256-PHcOkPmOshsMBC+vtJdVr5Mwb7r0LkSVJPlPrp/IMpU=" crossorigin="anonymous" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <a class="navbar-brand" href="#">UWindsor Video Game Design Club</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Members</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+
+
+
+
+    <script src="script.js"></script>
+    <!--Scripts: DO NOT TOUCH!-->
+    <script src="script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js" integrity="sha384-6khuMg9gaYr5AxOqhkVIODVIvm9ynTT5J4V1cfthmT+emCG6yVmEZsRHdxlotUnm" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" integrity="sha256-z6FznuNG1jo9PP3/jBjL6P3tvLMtSwiVAowZPOgo56U=" crossorigin="anonymous"></script>
+    <script>
+        var wow = new WOW(
+      {
+        boxClass:     'wow',      // animated element css class (default is wow)
+        animateClass: 'animated', // animation css class (default is animated)
+        offset:       0,          // distance to the element when triggering the animation (default is 0)
+        mobile:       true,       // trigger animations on mobile devices (default is true)
+        live:         true,       // act on asynchronously loaded content (default is true)
+        callback:     function(box) {
+          // the callback is fired every time an animation is started
+          // the argument that is passed in is the DOM node being animated
+        },
+        scrollContainer: null // optional scroll container selector, otherwise use window
+      }
+    );
+    wow.init();  
+    </script>  
+  </body>
+</html>
