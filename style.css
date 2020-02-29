@@ -12,3 +12,10 @@
 .smooth{
     scroll-behavior: smooth;
 }
+
+
+.black{
+    background-color: black;
+    color: white;
+    border-color: white;
+}
